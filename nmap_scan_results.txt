@@ -1,0 +1,33 @@
+# Nmap Scan Results - Localhost (127.0.0.1)
+# Command: nmap -sV -T4 -A -v 127.0.0.1
+# Date: 2026-06-15 10:56
+# Tool: Nmap 7.99 (Zenmap GUI)
+
+Starting Nmap scan on localhost (127.0.0.1)
+Host is up (0.00033s latency).
+Not shown: 998 closed tcp ports (reset)
+
+PORT      STATE   SERVICE        VERSION
+135/tcp   open    msrpc          Microsoft Windows RPC
+445/tcp   open    microsoft-ds?
+
+Device type: general purpose
+Running: Microsoft Windows 11
+OS CPE: cpe:/o:microsoft:windows_11
+OS details: Microsoft Windows 11 24H2 - 25H2
+Uptime guess: 12.682 days (since Tue Jun 2 18:34:06 2026)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host Script Results:
+| smb2-time:
+|   date: 2026-06-15T05:26:14
+|   start_date: N/A
+| smb2-security-mode:
+|   3.1.1:
+|_    Message signing enabled and required
+
+Nmap done: 1 IP address (1 host up) scanned in 21.95 seconds
+Raw packets sent: 1016 (45.418KB) | Rcvd: 2042 (87.170KB)
